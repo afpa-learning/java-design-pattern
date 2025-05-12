@@ -1,4 +1,4 @@
-# Design pattern "singleton
+# Design pattern singleton
 
 ## Principe
 
@@ -32,4 +32,5 @@ Cette classe devra permettre de :
 
 > [!WARNING]
 > Vérifiez bien à ce que plusieurs appels de la méthode `getInstance` renvoient bien une seule et même instance.
+>
 > L'identifiant unique d'un objet peut, par exemple, être récupéré en utilisant la méthode statique `Objects.toIdentityString(...)`. Documentation disponible [ici](https://howtodoinjava.com/java/object-identity-string/#2-accessing-the-object-identity-string)
