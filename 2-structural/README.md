@@ -2,6 +2,8 @@
 
 ## Principe
 
+Le design pattern Façade fournit une interface simplifiée à un ensemble de classes ou à un sous-système complexe.
+
 Pour plus d'informations sur ce design pattern veuillez consulter la page disponible [ici](https://refactoring.guru/fr/design-patterns/facade).
 
 ## Exercice d'application
@@ -96,3 +98,4 @@ Elle devra comprendre :
 
 1. Etablir le diagramme de classe UML permettant de représenter le système complet
 2. Implémentez la classe `JukeboxFacade` correspondant à la classe qui devra être appelée pour démarrer une piste audio.
+3. Tester votre classe via des appels à partir de la fonction `main` et/ou des tests unitaires
