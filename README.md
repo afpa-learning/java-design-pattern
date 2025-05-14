@@ -3,8 +3,11 @@
 Ce dépôt contient un ensemble d'exercices pour étudier la notion de **patron de conception** ou **design pattern** et travailler le implémentation en Java.
 
 Les exercices se basent sur l'utilisation de plusieurs ressources disponibles en ligne :
-- [Refactoring Guru](https://refactoring.guru/fr) : un site de référence sur l'utilisation de patron de conception ;
-- [Dépôt Git java-design-pattern](https://github.com/iluwatar/java-design-patterns/tree/master)
+- cours :
+    - [Refactoring Guru](https://refactoring.guru/fr) : un site de référence sur l'utilisation de patron de conception ;
+    - [Koor.fr](https://koor.fr/Java/Tutorial/java_design_patterns.wp) : site proposant des exemples propres à Java
+- code Java commenté :
+    - [Dépôt Git java-design-pattern](https://github.com/iluwatar/java-design-patterns/tree/master)
 
 > [!TIP]
 > Ces différentes ressouces vous fournissent un impémentation des design pattern. A vous de vous de l'adapter à vos besoins.
@@ -25,7 +28,7 @@ Les patrons de peuvent être catalogués en 3 grandes catégories :
 Voici l'ordre d'étude qui vous est proposé :
 1. Etude de 2 patrons de création :
     - [Singleton](https://refactoring.guru/fr/design-patterns/singleton)
-    - [Factory](https://refactoring.guru/fr/design-patterns/factory-method)
+    - [Factory method](https://www.baeldung.com/java-factory-pattern#factory-method-pattern)
 2. Etude d'un patron structurel :
     - [Façade](https://refactoring.guru/fr/design-patterns/facade)
 3. Etude d'un patron comportemental :
