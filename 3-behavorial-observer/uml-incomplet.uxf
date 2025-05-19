@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>528</x>
+      <y>264</y>
+      <w>264</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+Sensor
+--
+
+--
++ subscribe(AlertObserver observer): void
++ unsubscribe(AlertObserver observer): void
++ notifySubscribers(): void
++ simulateDetectionEvent(): void
+--
+
+Responsabilité :
+interface regroupant les méthodes
+à implémenter par un capteur
+(considéré comme un "publisher")</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>840</x>
+      <y>264</y>
+      <w>248</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+AlertObserver
+--
+
+--
++ update(String message): void 
+--
+
+Responsabilité :
+interface regroupant les méthodes
+à implémenter par une classe gérant une alerte
+(considéré comme un "subscriber")</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>32</x>
+      <y>288</y>
+      <w>472</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Note..
+bg=red
+La méthode "simulateDetectionEvent" est une uniquement présente
+dans le cadre de cet exercice pour simuler la détection 
+qui devra provoquer une alerte.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>448</x>
+      <y>336</y>
+      <w>96</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>100.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

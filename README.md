@@ -10,7 +10,7 @@ Les exercices se basent sur l'utilisation de plusieurs ressources disponibles en
     - [Dépôt Git java-design-pattern](https://github.com/iluwatar/java-design-patterns/tree/master)
 
 > [!TIP]
-> Ces différentes ressouces vous fournissent un impémentation des design pattern. A vous de vous de l'adapter à vos besoins.
+> Ces différentes ressouces vous fournissent une impémentation de différents design pattern. Ces implémentations seront à adapter selon vos besoins.
 
 ## Qu'est-ce qu'un patron de conception ?
 
@@ -32,5 +32,6 @@ Voici l'ordre d'étude qui vous est proposé :
 2. Etude d'un patron structurel :
     - [Façade](https://refactoring.guru/fr/design-patterns/facade)
 3. Etude d'un patron comportemental :
-    - [Strategy](https://refactoring.guru/fr/design-patterns/strategy)
+    - [Observateur](https://refactoring.guru/fr/design-patterns/observer)
+
 
